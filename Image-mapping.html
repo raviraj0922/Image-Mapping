@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Roadmap in Retail</title>
+    <style>
+        .infograph {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .infograph img {
+            height: auto;
+        }
+        .panel-group {
+            margin-top: 20px;
+        }
+        .panel-heading h4 {
+            margin: 0;
+        }
+        .panel-title a {
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+            background: #f5f5f5;
+            color: #333;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        .panel-body {
+            padding: 0;
+        }
+        .panel-body p {
+            font-weight: 300;
+            text-align: center;
+            font-size: 13px;
+            padding: 15px;
+        }
+        .content-section {
+            display: none;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background: #f5f5f5;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            .panel-body p {
+                font-size: 11px;
+                padding: 10px;
+            }
+            .panel-title a {
+                padding: 8px;
+            }
+            .content-section {
+                padding: 8px;
+            }
+            .infograph img {
+            width: 100%;
+            height: auto;
+            }
+            .panel-group {
+            width: 100%;
+            margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="infograph">
+        <div class="panel-group mb-5" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Explore the Retail Framework</a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse-info in">
+                    <div class="panel-body">
+                        <p><em>Click on the specific framework to learn more</em></p>
+                        <img id="image-map" src="img/info.png" usemap="#image-map-map" alt="Career Roadmap in Retail">
+                        <map name="image-map-map" id="image-map-map">
+                            <area alt="E-Commerce" coords="505,48,502,187,565,214,666,113,586,61" href="#e-commerce" shape="poly" title="Click to learn more about E-Commerce" 
+                                onmouseover="changeImage('img/1.png')" 
+                                onmouseout="resetImage()" 
+                                onclick="setImageAndShowContent('img/1.png', 'e-commerce')">
+
+                            <area alt="Finance" coords="691,135,588,233,614,300,759,298,739,207" href="#finance" shape="poly" title="Click to learn more about Finance" 
+                                onmouseover="changeImage('img/2.png')" 
+                                onmouseout="resetImage()" 
+                                onclick="setImageAndShowContent('img/2.png', 'finance')">
+                            
+                            <area alt="Sourcing" coords="757,329,614,327,589,393,691,496,743,410" href="#sourcing" shape="poly" title="Click to learn more about Sourcing" 
+                                onmouseover="changeImage('img/3.png')" 
+                                onmouseout="resetImage()" 
+                                onclick="setImageAndShowContent('img/3.png', 'sourcing')">
+
+                            <area alt="foodeatery" coords="668,516,570,413,505,441,506,584,588,567" href="#foodeatery" shape="poly" title="Click to learn more about Food / Eatery" 
+                                onmouseover="changeImage('img/4.png')" 
+                                onmouseout="resetImage()" 
+                                onclick="setImageAndShowContent('img/4.png', 'foodeatery')">
+
+                            <area alt="sustainability" coords="475,587,477,440,414,415,311,519,383,566" href="#sustainability" shape="poly" title="Click to learn more about Sustainability" 
+                                onmouseover="changeImage('img/5.png')" 
+                                onmouseout="resetImage()" 
+                                onclick="setImageAndShowContent('img/5.png', 'sustainability')">
+
+                            <area alt="Customer Experience" coords="286,491,391,395,363,326,222,329,239,419" href="#customer-experience" shape="poly" title="Click to learn more about Customer Experience" 
+                                onmouseover="changeImage('img/6.png')" 
+                                onmouseout="resetImage()" 
+                                onclick="setImageAndShowContent('img/6.png', 'customer-experience')">
+
+                            <area alt="People Management" coords="221,298,364,299,392,234,289,134,239,208" href="#people-management" shape="poly" title="Click to learn more about People Management" 
+                                onmouseover="changeImage('img/7.png')" 
+                                onmouseout="resetImage()" 
+                                onclick="setImageAndShowContent('img/7.png', 'people-management')">
+
+                            <area alt="Marketing" coords="310,114,409,218,472,189,472,47,383,66" href="#marketing" shape="poly" title="Click to learn more about Marketing" 
+                                onmouseover="changeImage('img/8.png')" 
+                                onmouseout="resetImage()" 
+                                onclick="setImageAndShowContent('img/8.png', 'marketing')">
+                        </map>
+                        <h2 style="text-align: center;">Career interest choices Reatil Sector</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="e-commerce" class="content-section" style="background-color: #fbcd09;">
+            <h2>E Commerce</h2>
+            <ul>
+                <li>E commerce Manager</li>
+                <li>SEO Specialist</li>
+                <li>Photography</li>
+                <li>Data Analyst</li>
+                <li>Product Merchandising</li>
+                <li>User Experience Expert</li>
+                <li>Web and App Developer</li>
+                <li>Customer Service</li>
+                <li>Order Fulfillment Coordinator</li>
+                <li>Product Listing Manager</li>
+            </ul>
+        </div>
+        <div id="finance" class="content-section" style="background-color: #f7901e;">
+            <h2>Finance</h2>
+            <ul>
+                <li>Accounting Manager</li>
+                <li>Books keeping</li>
+                <li>Loss Prevention</li>
+                <li>Wage Clerk</li>
+            </ul>
+        </div>
+        <div id="sourcing" class="content-section" style="background-color: #f05623;">
+            <h2>Sourcing</h2>
+            <ul>
+                <li>Merchandising Manager</li>
+                <li>Supply Chain and Logistic</li>
+                <li>Stock Controller</li>
+                <li>Buying Team</li>
+                <li>Product Development</li>
+                <li>Product Knowledge Experts</li>
+            </ul>
+        </div>
+        <div id="foodeatery" class="content-section" style="background-color: #9f4098;">
+            <h2>Food / Eatery</h2>
+            <ul>
+                <li>Chef</li>
+                <li>Service Manager</li>
+                <li>Restaurant Manager</li>
+            </ul>
+        </div>
+            <div id="sustainability" class="content-section" style="background-color: #663399;">
+            <h2>Sustainability</h2>
+            <ul>
+                <li>Corporate Social Responsibility Manager</li>
+                <li>Innovation Manager</li>
+                <li>Technology Experts</li>
+                <li>Community Outreach Experts</li>
+            </ul>
+        </div>
+            <div id="customer-experience" class="content-section" style="background-color: #6f66b0;">
+            <h2>Customer Experience</h2>
+            <ul>
+                <li>Sales</li>
+                <li>Cash Counter / Teller</li>
+                <li>Customer Service</li>
+                <li>Merchandising</li>
+                <li>Forecourt Management</li>
+                <li>Housekeeping Operations</li>
+                <li>Security Manager</li>
+            </ul>
+        </div>
+        <div id="people-management" class="content-section" style="background-color: #1c907e;">
+            <h2>People Management</h2>
+            <ul>
+                <li>Human Resource Manager</li>
+                <li>Operational Manager</li>
+                <li>Receptionist</li>
+                <li>Regional Manager</li>
+                <li>Senior Management</li>
+                <li>Training & Development Manager</li>
+                <li>General Manager</li>
+                <li>Chief Executive Officer</li>
+            </ul>
+        </div>
+        <div id="marketing" class="content-section" style="background-color: #8fc741;">
+            <h2>Marketing</h2>
+            <ul>
+                <li>Customer Relationship Manager</li>
+                <li>Blogging</li>
+                <li>Content Creators</li>
+                <li>SEO</li>
+                <li>Digital Marketing</li>
+                <li>Video Creation</li>
+                <li>Omni-Channel Marketing Manager</li>
+                <li>AR/VR Specialists</li>
+                <li>Customer Engagement Strategist</li>
+                <li>Graphic Designer</li>
+                <li>Social Media</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        let originalImage = 'img/info.png';
+        let currentImage = originalImage;
+        const coords = {
+            'e-commerce': '505,48,502,187,565,214,666,113,586,61',
+            'finance': '691,135,588,233,614,300,759,298,739,207',
+            'sourcing': '757,329,614,327,589,393,691,496,743,410',
+            'foodeatery': '668,516,570,413,505,441,506,584,588,567',
+            'sustainability': '475,587,477,440,414,415,311,519,383,566',
+            'customer-experience': '286,491,391,395,363,326,222,329,239,419',
+            'people-management': '221,298,364,299,392,234,289,134,239,208',
+            'marketing': '310,114,409,218,472,189,472,47,383,66'
+        };
+
+        function changeImage(src) {
+            document.getElementById('image-map').src = src;
+        }
+    
+        function resetImage() {
+            if (currentImage === originalImage) {
+                document.getElementById('image-map').src = originalImage;
+            } else {
+                document.getElementById('image-map').src = currentImage;
+            }
+        }
+    
+        function setImage(src) {
+            document.getElementById('image-map').src = src;
+            currentImage = src;
+        }
+    
+        function setImageAndShowContent(imgSrc, contentId) {
+            setImage(imgSrc);
+            hideAllContent();
+            document.getElementById(contentId).style.display = 'block';
+        }
+    
+        function hideAllContent() {
+            let sections = document.querySelectorAll('.content-section');
+            sections.forEach(function(section) {
+                section.style.display = 'none';
+            });
+        }
+    
+        function resizeMap() {
+            const img = document.getElementById('image-map');
+            const imgWidth = img.naturalWidth;
+            const imgHeight = img.naturalHeight;
+            const currentWidth = img.clientWidth;
+            const scale = currentWidth / imgWidth;
+
+            Object.keys(coords).forEach(id => {
+                const area = document.querySelector(`area[href="#${id}"]`);
+                const originalCoords = coords[id].split(',').map(Number);
+                const scaledCoords = originalCoords.map(coord => Math.round(coord * scale)).join(',');
+                area.coords = scaledCoords;
+            });
+        }
+
+        window.addEventListener('resize', resizeMap);
+        window.addEventListener('load', resizeMap);
+    </script>
+    </body>
+</html>
